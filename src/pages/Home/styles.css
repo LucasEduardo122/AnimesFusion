@@ -1,0 +1,107 @@
+body {
+    background-color: #1F232E;
+}
+.Temporada {
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    width: 55%;
+}
+h3 {
+    color: #fff;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    font-family: Neo Sans,sans-serif;
+}
+
+.data {
+    width: 100%;
+    max-width: 1155px;
+    height: 80px;
+    display: block;
+    padding: 30px 0 0;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.data ul { 
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data ul li {
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 0 -1px 10px 0;
+    padding: 5px 10px 10px;
+}
+
+.data ul li:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.data li {
+    display: inline-block;
+    margin: 0 -1px 10px 0;
+    padding: 5px 10px 10px;
+    border-right: 1px solid #fff;
+}
+
+.data li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.imgTemporada {
+    grid-auto-flow: column;
+    display: inline-grid;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.sec {
+    padding: 0 50px;
+}
+.container {
+    position: relative;
+    box-sizing: border-box;
+    user-select: none;
+    min-width: 100%;
+    min-height: 100%;
+    transform-origin: left top 0px;
+    width: -webkit-fit-content;
+    transform: translate3d(0px, 0px, 0px) scale(1);
+}
+.grade {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    overflow: hidden
+}
+.anime-item {
+    width: 180px;
+    height: auto;
+    background-color: #191919;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+.anime-entrar {
+    display: flex;
+    flex-direction: column;
+}
+
+.anime-fig {
+    color: #aaa;
+    font-size: .7em;
+    line-height: 1em;
+    height: 2em;
+    overflow-y: hidden;
+    margin: 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

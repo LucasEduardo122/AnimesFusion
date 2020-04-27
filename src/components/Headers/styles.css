@@ -1,0 +1,47 @@
+.header {
+    background:black;
+    width: 99%;
+    height: 8%;
+    top: -8px;
+    position: relative;
+}
+.menu {
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color: #4D004F;
+}
+
+li.active {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #E69E19;
+}
+
+li.active a {
+    color: #4D004F;
+}
+
+.menu img {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.menu img.Fusion {
+    margin-right: 15px;
+}

@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    max-width: 1120px;
+    height: auto;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container img {
+    padding-left: 25px;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+}
+.container section.section {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 250px;
+}
+
+.container section.section form {
+    margin-top: 100px;
+}
+
+.container section.section form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #E69E19;
+}
+
+.container section.section form input{
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.container section.section form button{
+    background: #4D004F;
+    border: 1px solid #4D004F;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 19px;
+}
